@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/2d115c2cb3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+		<div class="header">
+			
+		    <nav class="nav">
+			    <img class="img-header" src="https://sanivet.es/wp-content/uploads/2019/10/Logo-clinica-veterinaria-en-Leon-Sanivet.png">
+			    <ul class="nav__ul">
+				    <li class="nav__li"><a href="index.html">HOME</a></li>
+				    <li class="nav__li"><a href="services.html">SERVICES</a></li>
+				    <li class="nav__li"><a href="team.html">OUR TEAM</a></li>
+				    <li class="nav__li"><a href="contact.html">CONTACT</a></li>
+			    </ul>
+			    <ul class="nav__ul-responsive">
+			    	<div class="nav__ul-responsive-button-container">
+			    		<div class="nav__ul-responsive-button fas fa-bars"></div>
+			    	</div>
+			    	<div id="responsive-menu" class="menu-background">
+			    		<div class="nav__ul-responsive-menu">
+			    		    <li class="nav__li-responsive"><a href="index.html">HOME</a></li>
+				            <li class="nav__li-responsive"><a href="services.html">SERVICES</a></li>
+				            <li class="nav__li-responsive"><a href="team.html">OUR TEAM</a></li>
+				            <li class="nav__li-responsive"><a href="contact.html">CONTACT</a></li>
+			    	    </div>
+			    	</div>
+			    </ul>
+		    </nav>
+		</div>
+	</header>
+	<div class="contact-container">
+		<div class="contact-flex-container">
+			<div class="contact-info">
+		    	<div>
+		    		<h2>Sanivet Veterinary Center</h2><br>
+		    		<p>Medellin, carrera 70 # 44A - 16</p><br><br>
+		    		<h3>Visit Us</h3>
+		    		<p>Our welcoming and compasionate staff will do everything in their hands to help and make you feel at home</p><br><br>
+		    		<h3>Office Hours</h3>
+			        <p>Mon, Thur: 8 a.m. – 9 p.m.
+                    Fri: 8 a.m. – 8 p.m.
+                    Sat-Sun: 9 a.m. – 5 p.m.</p><br><br>
+                    <h3>Phone Number</h3>
+			        <p>+34634113794</p>
+		    	</div>
+		    </div>
+			<form class="contact-form" autocomplete="off">
+			<h2>Contact our team</h2>
+			<div class="contact-flex-item">
+				<input id="contact-name" type="text" placeholder="Name" class="contact-input" required="">
+			</div>
+			<div class="contact-flex-item">
+				<input id="contact-phone" type="number" placeholder="Phone Number" class="contact-input" required="">
+			</div>
+			<div class="contact-flex-item">
+				<input id="contact-email" type="email" placeholder="Email" class="contact-input" required="">
+			</div>
+			<div class="contact-flex-item">
+				<textarea id="contact-text" placeholder="Type your message here" class="contact-input" required=""></textarea>
+			</div>
+			<div class="contact-flex-item">
+				<input type="submit" class="contact-button contact-input">
+			</div>
+			<div class="result"></div>
+		    </form>
+		</div>
+	</div>
+   
+	<footer class="footer-container">
+		<div class="footer-container__flex-item">
+			<h3>Appointments</h3>
+			<p>We will do our best to accommodate your busy schedule. Request an appointment today!</p>
+		</div>
+		<div class="footer-container__flex-item">
+			<h3>Office Hours</h3>
+			<p>Mon, Thur: 8 a.m. – 9 p.m.
+               Fri: 8 a.m. – 8 p.m.
+               Sat-Sun: 9 a.m. – 5 p.m.</p>
+		</div>
+		<div class="footer-container__flex-item">
+			<h3>Contact Us</h3>
+			<p>+34634113794</p>
+		</div>
+		<div class="footer-container__flex-item-copyright">@ copyright 2023. Website By Leonardo Salazar</div>
+	</footer>
+	<script src="codigo.js"></script>
+</body>
+</html>

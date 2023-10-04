@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/2d115c2cb3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="modal-background">
+		<div class="modal-background__modal">
+			<div class="close-button"></div>
+            <div class="appointment-container"> 
+			    <form class="appointment" autocomplete="off">
+			    	<h2>REQUEST AN APPOINTMENT</h2>
+					<div class="appointment-div">
+					    <div class="appointment__pet-info">
+						    <input id="pets-name" type="text" placeholder="Pet's Name" class="appointment__form-info" required="">
+					    </div>
+				        <div>
+				    	    <input id="breed" type="text" placeholder="Breed" class="appointment__form-info" required="">
+				        </div>
+				        <div>
+				    	    <input id="species" type="text" placeholder="species" class="appointment__form-info" required="">
+				        </div>
+				    </div>
+				    <div class="appointment-div">
+					    <div class="appointment__owner-info">
+						    <input id="owners-name" type="text" placeholder="Owner's Name" class="appointment__form-info" required="">
+					    </div>
+				        <div>
+				    	    <input id="email" type="email" placeholder="Email" class="appointment__form-info" required="">
+				        </div>
+				        <div>
+				    	    <input id="phone" type="number" placeholder="Phone Number" class="appointment__form-info" required="">
+				        </div>
+				    </div>
+				    <div>
+					    <input id="submit-button" type="submit" class="appointment__form-info submit" value="Submit">
+				    </div>
+				    <div class="result"></div>
+			    </form>
+			    <div class="form-img">
+			    	<img src="https://img.photolamus.com/gDc6UwqZ/x880/d8523de23ef7eb845a21b4e823f9aed5/dibujo-de-grafito-de-perro-y-gato-4.jpg">
+			    </div>
+			</div>    
+		</div>
+	</div>
+	<header>
+		<div class="header">
+			
+		    <nav class="nav">
+			    <img class="img-header" src="https://sanivet.es/wp-content/uploads/2019/10/Logo-clinica-veterinaria-en-Leon-Sanivet.png">
+			    <ul class="nav__ul">
+				    <li class="nav__li"><a href="index.html">HOME</a></li>
+				    <li class="nav__li"><a href="services.html">SERVICES</a></li>
+				    <li class="nav__li"><a href="team.html">OUR TEAM</a></li>
+				    <li class="nav__li"><a href="contact.html">CONTACT</a></li>
+			    </ul>
+			    <ul class="nav__ul-responsive">
+			    	<div class="nav__ul-responsive-button-container">
+			    		<div class="nav__ul-responsive-button fas fa-bars"></div>
+			    	</div>
+			    	<div id="responsive-menu" class="menu-background">
+			    		<div class="nav__ul-responsive-menu">
+			    		    <li class="nav__li-responsive"><a href="index.html">HOME</a></li>
+				            <li class="nav__li-responsive"><a href="services.html">SERVICES</a></li>
+				            <li class="nav__li-responsive"><a href="team.html">OUR TEAM</a></li>
+				            <li class="nav__li-responsive"><a href="contact.html">CONTACT</a></li>
+			    	    </div>
+			    	</div>
+			    </ul>
+		    </nav>
+		</div>
+	</header>
+    <div class="container">
+		<img src="https://banfield.com.mx/templates/yootheme/cache/vacunacion_perro_gato-4a63d87a.jpeg" class="main-img">
+		<div class="main-tittle">
+			
+			<h3>BEST VETERINARIANS IN MEDELLIN</h3>
+		    <h2>WELCOME TO SANIVET VETERINARY CLINIC</h2>
+		    <button class="appointment-button">REQUEST AN APPOINTMENT TODAY!</button>
+		</div>
+	</div>
+	<div class="container__2">
+		<h1>Welcome to Sanivet Veterinary Center</h1>
+		<p>Sanivet Veterinary Center is pleased to serve Medellin, Antioquia and the surrounding areas. Our goal is to provide you and your pets with the best veterinary experience possible.
+        At Sanivet Veterinary Center, everyone is considered a leader and an integral member of the health care delivery team. Every day at Sanivet Veterinary Center, it is our friendly team’s responsibility to help make your veterinary experience a positive one to ensure that both you and your pet are at ease. In addition to mandatory veterinary knowledge and training, our team is selected for kindness, compassion, patience, professionalism, integrity, and agility.
+        We are here for you, we are here for your pet, and we are your neighborhood’s favorite vet. Please don’t hesitate to contact us today at (212) 580-1800 to request your pet’s appointment!</p>
+	</div>
+	<div class="container__3">
+		<h2>Our services</h2>
+		<div class="grid-container">
+			<a href="services.html">
+				<div class="grid-item">
+					<img src="https://www.surepetcare.com/media/biothermo/EN_microchip_location2.png">
+				    <div>Microchipping</div>
+				    <p>We are happy to offer microchipping</p>
+				</div>
+		    </a>
+			<a href="services.html">
+				<div class="grid-item">
+				    <img src="https://p1.hiclipart.com/preview/437/726/376/injection-syringe-hypodermic-needle-medicine-drawing-pharmaceutical-drug-vaccine-syringe-driver-png-clipart.jpg">
+				    <div>Vaccination</div>
+				    <p>Vaccination is one of the most important aspects of caring for your pet's health</p>
+			    </div>
+			</a>
+			<a href="services.html">
+				<div class="grid-item">
+				    <img src="https://w7.pngwing.com/pngs/61/985/png-transparent-radiography-diagnostic-test-medical-laboratory-medicine-esophagogastroduodenoscopy-xray-horse-mammal-cat-like-mammal-thumbnail.png">
+				    <div>Advanced Digital X-rays</div>
+				    <p>Radiology is a technique and diagnostic tool that we usevto took inside the bodyvin a non-invasive way</p>
+			    </div>
+			</a>
+			<a href="services.html">
+				<div class="grid-item">
+				    <img src="https://previews.123rf.com/images/pyatkevichdenis/pyatkevichdenis1909/pyatkevichdenis190900462/130726857-doodle-sketch-teeth-on-a-white-background-cartoon-drawing-dental.jpg">
+				    <div>Dental Care</div>
+				    <p>Dental care is vital to the overall health of any pet</p>
+			    </div>
+			</a>
+			<a href="services.html">
+				<div class="grid-item">
+				    <img src="https://media.istockphoto.com/id/1346018362/vector/scalpel-lancet-or-bistoury.jpg?s=612x612&w=0&k=20&c=Rqv9Kyil4aHiIe8TC7d1MbD4XjQnhVXpFNafYTRvFQI=">
+				    <div>Surgery</div>
+				    <p>Our surgical team is highly trained and experienced</p>
+			    </div>
+			</a>
+			<a href="services.html">
+				<div class="grid-item">
+				    <img src="https://spng.pngfind.com/pngs/s/316-3166669_svg-png-icon-nurse-cap-drawing-transparent-png.png">
+				    <div>24-Nursing Care</div>
+				    <p>We provide 24 hour nursing care so your pet is never unattended</p>
+			    </div>
+			</a>
+		</div>
+	</div>
+	<footer class="footer-container">
+		<div class="footer-container__flex-item">
+			<h3>Appointments</h3>
+			<p>We will do our best to accommodate your busy schedule. Request an appointment today!</p>
+		</div>
+		<div class="footer-container__flex-item">
+			<h3>Office Hours</h3>
+			<p>Mon, Thur: 8 a.m. – 9 p.m.
+               Fri: 8 a.m. – 8 p.m.
+               Sat-Sun: 9 a.m. – 5 p.m.</p>
+		</div>
+		<div class="footer-container__flex-item">
+			<h3>Contact Us</h3>
+			<p>+34634113794</p>
+		</div>
+		<div class="footer-container__flex-item-copyright">@ copyright 2023. Website By Leonardo Salazar</div>
+	</footer>
+	<script src="codigo.js"></script>
+</body>
+</html>
